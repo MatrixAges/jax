@@ -7,7 +7,7 @@
 /coverage
 
 # development
-/.jax
+/src/.jax
 
 # production
 /build
