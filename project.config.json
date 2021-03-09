@@ -8,13 +8,13 @@
   "libVersion": "2.15.0",
   "projectname": "jax",
   "scripts": {
-    "beforeCompile": "npm run tsc",
-    "beforePreview": "npm run tsc",
-    "beforeUpload": "npm run tsc"
+    "beforeCompile": "",
+    "beforePreview": "",
+    "beforeUpload": ""
   },
   "setting": {
-    "urlCheck": true,
-    "es6": true,
+    "urlCheck": false,
+    "es6": false,
     "enhance": false,
     "postcss": true,
     "preloadBackgroundData": false,
@@ -29,7 +29,7 @@
     "checkInvalidKey": true,
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
-    "compileHotReLoad": false,
+    "compileHotReLoad": true,
     "useMultiFrameRuntime": false,
     "useApiHook": true,
     "babelSetting": {
@@ -38,6 +38,7 @@
       "outputPath": ""
     },
     "enableEngineNative": false,
+    "bundle": true,
     "useIsolateContext": true,
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
